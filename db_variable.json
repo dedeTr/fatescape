@@ -1,0 +1,399 @@
+{
+  "variable": {
+    "energi": 50,
+    "energi_capacity": 100,
+    "mood": 50,
+    "mood_capacity": 100,
+    "edukasi": 10,
+    "social": 10,
+    "money": 30000,
+    "limit_freetime": 420,
+    "has_makan_ke_kantin": 0,
+    "has_belajar_ke_perpus": 0,
+    "has_main_basket": 0,
+    "has_ngobrol_bareng_teman": 0,
+    "waktu_aktivitas_berkala_mandi": 300,
+    "waktu_aktivitas_berkala_makan": 300,
+    "waktu_aktivitas_berkala_tidur": 0,
+    "has_ngobrol_elisa": 0,
+    "has_belajar_bareng": 0,
+    "current_place": "",
+    "var dialog": 0,
+    "tglActive": "Tgl 27 feb",
+    "on map": 0,
+    "event_marchingband": 0,
+    "hadir_event_marchingband": 0,
+    "belajar bareng": 0
+  },
+  "time game": {
+    "month": 1,
+    "date": 28,
+    "hours": 5,
+    "minutes": 0
+  },
+  "storage": {
+    "kopi": {
+      "jumlah": 4,
+      "frame": 1,
+      "keterangan": "Item aktif\nEnergi +10%\nMood +5%",
+      "super market": {
+        "harga": 7000
+      },
+      "pasar": 0,
+      "jual": {
+        "harga": 3000
+      },
+      "consume": {
+        "energi": 10,
+        "mood": 5
+      }
+    },
+    "roti": {
+      "jumlah": 2,
+      "frame": 2,
+      "keterangan": "Item aktif\nEnergi +3.5%",
+      "super market": {
+        "harga": 14000
+      },
+      "pasar": 0,
+      "jual": {
+        "harga": 7000
+      },
+      "consume": {
+        "energi": 3.5,
+        "mood": 0
+      }
+    },
+    "teh": {
+      "jumlah": 1,
+      "frame": 3,
+      "keterangan": "Item aktif\nEnergi +6%\nMood +6%",
+      "super market": {
+        "harga": 6000
+      },
+      "pasar": 0,
+      "jual": {
+        "harga": 2000
+      },
+      "consume": {
+        "energi": 6,
+        "mood": 6
+      }
+    },
+    "air": {
+      "jumlah": 3,
+      "frame": 4,
+      "keterangan": "Item aktif\nEnergi +3%\nMood +3%",
+      "super market": {
+        "harga": 4000
+      },
+      "pasar": 0,
+      "jual": {
+        "harga": 1500
+      },
+      "consume": {
+        "energi": 3,
+        "mood": 3
+      }
+    },
+    "MP3 player": {
+      "jumlah": 1,
+      "frame": 5,
+      "keterangan": "Item pasif\nBuff mood 10%\nBuff energi 10%\nBuff edukasi 30%\nBuff joging 40%",
+      "super market": {
+        "harga": 80000
+      },
+      "pasar": 0,
+      "jual": {
+        "harga": 45000
+      },
+      "consume": 0
+    },
+    "spinner": {
+      "jumlah": 1,
+      "frame": 6,
+      "keterangan": "Item pasif\nBuff energi 6%\nBuff mood 6%\nDebuff edukasi -10%",
+      "super market": {
+        "harga": 40000
+      },
+      "pasar": 0,
+      "jual": {
+        "harga": 30000
+      },
+      "consume": 0
+    },
+    "jaket": {
+      "jumlah": 0,
+      "frame": 7,
+      "keterangan": "Item pasif\nBuff cuaca hujan(70%), hujan petir(75%), dan badai(80%)\nDebuff cuaca panas(-80%) dan cerah(25%)",
+      "super market": 0,
+      "pasar": {
+        "harga": 100000
+      },
+      "jual": {
+        "harga": 70000
+      },
+      "consume": 0
+    },
+    "sepatu olahraga": {
+      "jumlah": 0,
+      "frame": 15,
+      "keterangan": "Item pasif\nBuff joging 60%\nBuff senam 25%\nBuff main basket 45%",
+      "super market": 0,
+      "pasar": {
+        "harga": 120000
+      },
+      "jual": {
+        "harga": 70000
+      },
+      "consume": 0
+    },
+    "gelang": {
+      "jumlah": 0,
+      "frame": 8,
+      "keterangan": "Item pasif\nBuff mood 5%\nBuff social 10%",
+      "super market": 0,
+      "pasar": {
+        "harga": 25000
+      },
+      "jual": {
+        "harga": 10000
+      },
+      "consume": 0
+    },
+    "smartphone": {
+      "jumlah": 0,
+      "frame": 9,
+      "keterangan": "Item pasif\nBuff mood 40%\nBuff social 65%\nBuff edukasi 70%",
+      "super market": 0,
+      "pasar": {
+        "harga": 300000
+      },
+      "jual": {
+        "harga": 150000
+      },
+      "consume": 0
+    },
+    "jam tangan": {
+      "jumlah": 0,
+      "frame": 10,
+      "keterangan": "Item pasif\nBuff mood 20%\nBuff social 30%",
+      "super market": 0,
+      "pasar": {
+        "harga": 60000
+      },
+      "jual": {
+        "harga": 25000
+      },
+      "consume": 0
+    },
+    "kacamata berlensa": {
+      "jumlah": 0,
+      "frame": 11,
+      "keterangan": "Item pasif\nBuff edukasi 40%\nDebuff social -5%",
+      "super market": 0,
+      "pasar": {
+        "harga": 50000
+      },
+      "jual": {
+        "harga": 20000
+      },
+      "consume": 0
+    },
+    "kacamata gaya": {
+      "jumlah": 0,
+      "frame": 12,
+      "keterangan": "Item pasif\nBuff social 60%",
+      "super market": 0,
+      "pasar": {
+        "harga": 50000
+      },
+      "jual": {
+        "harga": 25000
+      },
+      "consume": 0
+    },
+    "notebook": {
+      "jumlah": 0,
+      "frame": 13,
+      "keterangan": "Item pasif\nBuff edukasi 87%\nBuff sosial 70%",
+      "super market": 0,
+      "pasar": {
+        "harga": 1200000
+      },
+      "jual": {
+        "harga": 500000
+      },
+      "consume": 0
+    },
+    "parfum": {
+      "jumlah": 0,
+      "frame": 14,
+      "keterangan": "Item pasif\nBuff mood 4%\nBuff energi 2%\nBuff sosial 30%",
+      "super market": 0,
+      "pasar": {
+        "harga": 25000
+      },
+      "jual": {
+        "harga": 10000
+      },
+      "consume": 0
+    }
+  },
+  "efek_item": {
+    "lingkungan sekitar": {
+      "jaket": {
+        "panas": -0.8,
+        "badai": 0.8,
+        "cerah": -0.25,
+        "hujan": 0.7,
+        "hujan petir": 0.75
+      }
+    },
+
+    "mood": {
+      "MP3 player": 0.1,
+      "spinner": 0.06,
+      "gelang": 0.05,
+      "smartphone": 0.4,
+      "jam tangan": 0.2,
+      "parfum": 0.04
+    },
+
+    "energi": {
+      "MP3 player": 0.1,
+      "spinner": 0.06,
+      "parfum": 0.02
+    },
+    "social": {
+      "gelang": 0.1,
+      "smartphone": 0.65,
+      "jam tangan": 0.3,
+      "kacamata berlensa": -0.05,
+      "kacamata gaya": 0.6,
+      "notebook": 0.7,
+      "parfum": 0.3
+    },
+    "edukasi": {
+      "MP3 player": 0.3,
+      "spinner": -0.1,
+      "smartphone": 0.7,
+      "kacamata berlensa": 0.4,
+      "notebook": 0.87
+    },
+    "joging": {
+      "MP3 player": 0.4,
+      "sepatu olahraga": 0.6
+    },
+    "senam": {
+      "sepatu olahraga": 0.25
+    },
+    "main basket": {
+      "sepatu olahraga": 0.45
+    }
+  },
+  "backpack": {
+    "c2array": true,
+    "size": [0, 1, 1],
+    "data": []
+  },
+  "kalender": {
+    "misi wajib": {
+      "c2dictionary": true,
+      "data": { "22": "Ulangan harian (UH), kumpulkan parameter minimal 60" }
+    },
+    "todo": { "c2dictionary": true, "data": {} },
+    "keterangan tanggal": {
+      "c2dictionary": true,
+      "data": {
+        "291": "Jam 8 malam zayn ngajak mabar",
+        "12": "Jam 8 malam zayn ngajak mabar",
+        "42": "Jam 8 malam zayn ngajak mabar"
+      }
+    }
+  },
+  "place": {
+    "rumah": {
+      "frame": 1,
+      "buka": 0,
+      "tutup": 1439
+    },
+    "sekolah": {
+      "frame": 2,
+      "buka": 420,
+      "tutup": 840
+    },
+    "rumah sakit": {
+      "frame": 3,
+      "buka": 0,
+      "tutup": 1439
+    },
+    "kebun": {
+      "frame": 4,
+      "buka": 0,
+      "tutup": 1439
+    },
+    "pasar": {
+      "frame": 5,
+      "buka": 0,
+      "tutup": 1439
+    },
+    "lapangan": {
+      "frame": 6,
+      "buka": 0,
+      "tutup": 1439
+    },
+    "super market": {
+      "frame": 7,
+      "buka": 0,
+      "tutup": 1439
+    },
+    "rumah elisa": {
+      "frame": 8,
+      "buka": 840,
+      "tutup": 1080
+    }
+  },
+  "save": {
+    "slot1": {
+      "thumbnail": 0,
+      "text": ""
+    },
+    "slot2": {
+      "thumbnail": 0,
+      "text": ""
+    },
+    "slot3": {
+      "thumbnail": 0,
+      "text": ""
+    }
+  },
+  "dialog": {
+    "matematika": {
+      "1": {
+        "1": "Pembahasan hari ini adalah logaritma natural",
+        "2": "logaritma natural merupakan logaritma berbasis e, dan disimbolkan dengan ln",
+        "3": "jadi beda logaritma biasa dengan logaritma natural terletak pada basisnya"
+      },
+      "2": {
+        "1": "Pembahasan hari ini adalah kurva polynomial berderajat 2",
+        "2": "Persamaan umumnya adalah ax^2+bx+c",
+        "3": "jika nilai a<0 kurva akan terbuka ke bawah, sedangkan jika a>0 maka kurva akan terbuka ke atas"
+      }
+    },
+    "fisika": {
+      "1": {
+        "1": "Pembahasan hari ini adalah mengenai energi mekanik",
+        "2": "Energi mekanik pada suatu benda akan selalu sama di semua tempat",
+        "3": "Energi mekanik adalah penjumlahan dari energi kinetik dan energi potensial"
+      }
+    },
+    "kimia": {
+      "1": {
+        "1": "",
+        "2": "",
+        "3": ""
+      }
+    }
+  }
+}
